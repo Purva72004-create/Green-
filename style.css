@@ -1,0 +1,20 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f8e0; color: #333; line-height: 1.6; }
+header { background-color: #4CAF50; color: white; padding: 1rem; text-align: center; }
+nav a { margin: 0 1rem; color: white; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+main { padding: 2rem; max-width: 1200px; margin: auto; }
+h1, h2, h3 { color: #2E7D32; }
+img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; }
+.products { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+.product { border: 1px solid #ddd; padding: 1rem; background: white; width: 300px; text-align: center; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.product h4 { color: #388E3C; }
+.product a { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; background: #4CAF50; color: white; text-decoration: none; border-radius: 4px; }
+.product a:hover { background: #388E3C; }
+form { max-width: 400px; margin: auto; }
+input, textarea, button { display: block; width: 100%; margin: 0.5rem 0; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
+button { background: #4CAF50; color: white; border: none; cursor: pointer; }
+button:hover { background: #388E3C; }
+footer { text-align: center; padding: 1rem; background: #4CAF50; color: white; margin-top: 2rem; }
+ul { list-style-type: disc; padding-left: 2rem; }
+article { margin-bottom: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 1rem; }
+@media (max-width: 768px) { .products { flex-direction: column; align-items: center; } nav { display: flex; flex-direction: column; } nav a { margin: 0.5rem 0; } }
